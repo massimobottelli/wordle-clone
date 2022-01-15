@@ -1,14 +1,14 @@
 # Wordle Solver
 
-Wordle Solver is a PHP web application that will help you in solving wordle game.
+Wordle Solver is a PHP web application that will help you in solving [Wordle](https://www.powerlanguage.co.uk/wordle/) game.
 
 ## Installation
 
 Web application requires Apache web server and PHP. 
+Go to your http folder (e.g. /var/www/html/) and pull the repository
 
 ## Usage
-
-
+Go to [http://localhost/wordle-solver](http://localhost/wordle-solver) 
 You can see an online working instance at [massimobottelli.it/wordle-solver](https://massimobottelli.it/wordle-solver/)
 
 ## Contributing
