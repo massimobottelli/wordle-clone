@@ -51,19 +51,19 @@ if (isset($_POST["submit"])) {
 					<tbody>
 						<tr>
 							<th scope="row" class="align-middle table-success text-center bg-success"><button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Insert letter that must be in the position">MUST BE</button></th>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe1" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe1 ?>"/></td>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe2" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe2 ?>" /></td>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe3" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe3 ?>" /></td>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe4" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe4 ?>" /></td>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe5" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe5 ?>" /></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe1" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe1 ?>"/></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe2" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe2 ?>" /></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe3" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe3 ?>" /></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe4" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe4 ?>" /></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustbe5" maxlength="1" value="<?php if (isset($_POST["submit"])) echo $mustbe5 ?>" /></td>
 						</tr>
 						<tr>
 							<th scope="row" class="align-middle table-secondary text-center bg-warning"><button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Insert list of letters that must NOT be in the position">MUST NOT BE</button></th>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe1" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe1 as $item) echo $item ?>"/></td>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe2" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe2 as $item) echo $item ?>" /></td>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe3" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe3 as $item) echo $item ?>" /></td>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe4" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe4 as $item) echo $item ?>" /></td>
-							<td><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe5" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe5 as $item) echo $item ?>" /></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe1" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe1 as $item) echo $item ?>"/></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe2" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe2 as $item) echo $item ?>" /></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe3" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe3 as $item) echo $item ?>" /></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe4" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe4 as $item) echo $item ?>" /></td>
+							<td class="align-middle"><input type="text" class="form-control" onkeyup="this.value = this.value.toUpperCase()" onkeypress="return(event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)||(event.charCode==32)" name="mustnotbe5" value="<?php if (isset($_POST["submit"])) foreach($array_mustnotbe5 as $item) echo $item ?>" /></td>
 						</tr>
 					</tbody>
 				</table>
@@ -171,12 +171,12 @@ if (isset($_POST["submit"])) {
 }
 ?>
 <div class="card">
-  <div class="card-header">
-    Massimo Bottelli &gt; <a href="https://massimobottelli.it/wordle-solver/">Wordle Solver</a>
+  <div class="card-header" style="text-align: center">
+    Massimo Bottelli - <a href="https://massimobottelli.it/wordle-solver/">Wordle Solver</a>
   </div>
   <div class="card-body">
     <blockquote class="blockquote mb-0">
-			<footer class="blockquote-footer"><small>&copy; Copyright 2022 - All rights reserved</footer>
+			<footer class="blockquote-footer" style="text-align: center"><small>Github Repository: <a href="https://github.com/massimobottelli/wordle-solver">massimobottelli/wordle-solver</a></small></footer>
     </blockquote>
   </div>
 </div>
