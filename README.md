@@ -5,6 +5,7 @@ Wordle Solver is a PHP web application that will help you in solving [Wordle](ht
 ## Installation
 
 Web application requires Apache web server and PHP. 
+
 Go to your http folder (e.g. /var/www/html/) and clone the repository
 ```bash
 git clone https://github.com/massimobottelli/wordle-solver.git
