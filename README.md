@@ -9,6 +9,7 @@ Go to your http folder (e.g. /var/www/html/) and pull the repository
 
 ## Usage
 Go to [http://localhost/wordle-solver](http://localhost/wordle-solver) 
+
 You can see an online working instance at [massimobottelli.it/wordle-solver](https://massimobottelli.it/wordle-solver/)
 
 ## Contributing
