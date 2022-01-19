@@ -1,6 +1,6 @@
 # Wordle Clone
 
-Wordle Clone is a PHP web application with two pages:
+Wordle Clone is composed by:
 1. Wordle - a clone of the famous [Wordle](https://www.powerlanguage.co.uk/wordle/) quiz game.
 2. Solver - tool that will help you in solving Wordle quiz.
 
