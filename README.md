@@ -18,8 +18,8 @@ git clone https://github.com/massimobottelli/wordle-clone.git
 2. Solver: [http://localhost/wordle-clone/solver.php](http://localhost/wordle-clone/solver.php) 
 
 You can see an online working instance at:
-1. Wordle: [https://massimobottelli.it/progetti-didattici/wordle/wordle.php](https://massimobottelli.it/progetti-didattici/wordle/wordle.php)
-2. Solver: [https://massimobottelli.it/progetti-didattici/wordle/solver.php](https://massimobottelli.it/progetti-didattici/wordle/solver.php)
+1. Wordle: [https://massimobottelli.it/didattica/wordle/wordle.php](https://massimobottelli.it/didattica/wordle/wordle.php)
+2. Solver: [https://massimobottelli.it/didattica/wordle/solver.php](https://massimobottelli.it/didattica/wordle/solver.php)
 
 
 ## Contributing
